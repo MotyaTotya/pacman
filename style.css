@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 40px;
+    position: absolute;
+    pointer-events: none;
+    transform: translate(-50%,-50%);
+}
+body{
+    background-image: url("kocmoc.png");
+    min-height: 100%;
+    /* cursor: none; */
+    overflow: hidden;
+}
+html{
+    height: 100%;
+}
+body .enemy{
+    position: fixed;
+    transition: 0;
+}
+.enemyr{
+    transform: scaleX(-1) translate(-50%,-50%);
+}
+#pacman{
+    /* transform: translate(-50%,-50%) ; */
+}
